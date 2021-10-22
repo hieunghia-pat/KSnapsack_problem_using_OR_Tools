@@ -1,4 +1,4 @@
-# Knapsack Problem solver using [OR Tools](https://developers.google.com/optimization) from Google Developer.
+# Knapsack Problem solver using [OR Tools](https://developers.google.com/optimization) from Google Developers.
 
 In this repo, I used OR Tools to get solutions for various test cases of Knapsack Problem. These test cases come from [kplib](https://github.com/likr/kplib).
 
