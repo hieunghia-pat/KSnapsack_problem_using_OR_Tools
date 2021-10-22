@@ -2,7 +2,7 @@
 
 In this repo, I used OR Tools to get solutions for various test cases of Knapsack Problem. These test cases come from [kplib](https://github.com/likr/kplib).
 
-I examined about 5 marks of limit time (1s, 3s, 60s, 120s and 180s) and observe the effect of time limitation for the ability to find the optimal solutions of Knapsack solver from OR Tools. But because of the limitation of hardware, some test cases only have about 2-3 results with corresponding time limitation.
+I examined about 5 marks of limit time (1s, 3s, 60s, 120s and 180s) and observed the effect of time limitation for the ability to find the optimal solutions of Knapsack solver from OR Tools. But because of the limitation of hardware, some test cases only have about 2-3 results with corresponding time limitation.
 
 To reproduce my results, change directory to solvers/build then rebuild or run main target file with appropriate **absolute** directory to the test cases folders. For example: ./main $HOME/Projects/kplib/02StronglyCorrelated
 
