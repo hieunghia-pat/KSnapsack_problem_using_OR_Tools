@@ -1,6 +1,4 @@
-Knapsack Problem solver using [OR Tools](https://developers.google.com/optimization) from Google Developer.
-
-====================
+# Knapsack Problem solver using [OR Tools](https://developers.google.com/optimization) from Google Developer.
 
 In this repo, I used OR Tools to get solutions for various test cases of Knapsack Problem. These test cases come from [kplib](https://github.com/likr/kplib).
 
@@ -8,13 +6,13 @@ I examined about 5 marks of limit time (1s, 3s, 60s, 120s and 180s) and observe 
 
 To reproduce my results, change directory to solvers/build then rebuild or run main target file with appropriate **absolute** directory to the test cases folders. For example: ./main $HOME/Projects/kplib/02StronglyCorrelated
 
-### Dependencies:
+## Dependencies:
 1. OR Tools.
 2. CMake.
 3. g++ 9.x with standard 17.
 4. [Boost](https://www.boost.org/) library.
 
-# kplib
+### kplib
 
 Test instances for 0-1 knapsack problems
 
@@ -29,7 +27,7 @@ The generation code is available here.
 
 (However, updating this code has stopped...)
 
-## Data format
+### Data format
 
 The following equation is a formulation of 0-1 knapsack problems.
 
@@ -48,6 +46,6 @@ p_n w_n
 ```
 
 
-## License
+### License
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
