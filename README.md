@@ -9,7 +9,7 @@ To reproduce my results, change directory to solvers/build then rebuild or run m
 ## Dependencies:
 1. OR Tools.
 2. CMake.
-3. g++ 9.x with standard 17.
+3. g++ 9.x with c++17.
 4. [Boost](https://www.boost.org/) library.
 
 ### kplib
