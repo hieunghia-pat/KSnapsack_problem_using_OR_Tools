@@ -96,10 +96,13 @@ int main(int argc, char* argv[])
                 {
                     out_path /= fs::path(token->data());
                 }
-                fs::create_directories(fs::path(out_path.string()));
+                if (!fs::directory_entry(out_path).exists()) 
+                    fs::create_directories(out_path);
                 std::string filename = split(tokens.back(), '.')[0];
-                std::cout << out_path << std::endl;
                 out_path /= (boost::format{"%1%_%2%s.txt"} % filename % limit_time).str();
+
+                if (fs::directory_entry(out_path).exists())
+                    continue;
 
                 std::ifstream in_file(path, std::ios_base::in);
 
